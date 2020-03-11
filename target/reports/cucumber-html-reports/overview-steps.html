@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>System - System Testing Execution Report</td>
+              <td>1</td>
+            <td>08 mar 2020, 17:03</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()</td>
+              <td>6</td>
+              <td class="duration" data-value="1442082357">1.442</td>
+              <td class="duration" data-value="240347059">0.240</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicaNoBotaoNovoUsuario()</td>
+              <td>6</td>
+              <td class="duration" data-value="6654408193">6.654</td>
+              <td class="duration" data-value="1109068032">1.109</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicarEm(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="10073960126">10.073</td>
+              <td class="duration" data-value="10073960126">10.073</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicarNo(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="230902507">0.230</td>
+              <td class="duration" data-value="230902507">0.230</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicarNoBotao()</td>
+              <td>7</td>
+              <td class="duration" data-value="2863031802">2.863</td>
+              <td class="duration" data-value="409004543">0.409</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.clicarNoBotao(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="692833366">0.692</td>
+              <td class="duration" data-value="230944455">0.230</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.oNomeCompletoNaoDeveSerExibido(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="26528656">0.026</td>
+              <td class="duration" data-value="26528656">0.026</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.oUsuarioDeveVerAMensagem(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="56803662">0.056</td>
+              <td class="duration" data-value="28401831">0.028</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.oUsu&aacute;rioDeveVerAMensagemDeErro(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="52506308">0.052</td>
+              <td class="duration" data-value="26253154">0.026</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.preencherAIdadeCom(String)</td>
+              <td>7</td>
+              <td class="duration" data-value="170830998">0.170</td>
+              <td class="duration" data-value="24404428">0.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.preencherOEmailCom(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="182488965">0.182</td>
+              <td class="duration" data-value="30414827">0.030</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.preencherOLoginCom(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="245674053">0.245</td>
+              <td class="duration" data-value="40945675">0.040</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.preencherONomeCompletoCom(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="218546812">0.218</td>
+              <td class="duration" data-value="36424468">0.036</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()</td>
+              <td>6</td>
+              <td class="duration" data-value="10645701180">10.645</td>
+              <td class="duration" data-value="1774283530">1.774</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CrudUsuarioSteps.verONomeCompleto(String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1044712138">1.044</td>
+              <td class="duration" data-value="522356069">0.522</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HookSteps.afterScenario()</td>
+              <td>7</td>
+              <td class="duration" data-value="9210944364">9.210</td>
+              <td class="duration" data-value="1315849194">1.315</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HookSteps.beforeScenario()</td>
+              <td>7</td>
+              <td class="duration" data-value="31180220013">31.180</td>
+              <td class="duration" data-value="4454317144">4.454</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsuarioClicarNoBotaoNovoProcesso()</td>
+              <td>1</td>
+              <td class="duration" data-value="938174916">0.938</td>
+              <td class="duration" data-value="938174916">0.938</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsuarioClicarNoBotaoSalvar(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="523249841">0.523</td>
+              <td class="duration" data-value="523249841">0.523</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsuarioClicarNoMenu()</td>
+              <td>1</td>
+              <td class="duration" data-value="238474523">0.238</td>
+              <td class="duration" data-value="238474523">0.238</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsuarioDeveriaVisualizarAMensagem(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="18266628">0.018</td>
+              <td class="duration" data-value="18266628">0.018</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)</td>
+              <td>6</td>
+              <td class="duration" data-value="766300498">0.766</td>
+              <td class="duration" data-value="127716749">0.127</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsu&aacute;rioClicaNoCampoArbitramentoComOValorSim()</td>
+              <td>1</td>
+              <td class="duration" data-value="223986011">0.223</td>
+              <td class="duration" data-value="223986011">0.223</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.oUsu&aacute;rioSelecionaNoCampoOValor(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="295850645">0.295</td>
+              <td class="duration" data-value="295850645">0.295</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessoSteps.queOUsu&aacute;rioEst&aacute;NaP&aacute;ginaAgapitoSoftwareTesting()</td>
+              <td>1</td>
+              <td class="duration" data-value="1866432169">1.866</td>
+              <td class="duration" data-value="1866432169">1.866</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>25</td>
+            <td>89</td>
+            <td class="duration">1:19.862</td>
+            <td class="duration">0.897</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

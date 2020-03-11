@@ -16,6 +16,11 @@ public class Home {
     }
 
     public void clickUsuarioMenu(){
-        driver.click("users");
+        driver.click("users", "id");
     }
+
+    public void clickProcessosMenu(){
+        driver.click("processos", "id");
+    }
+
 }

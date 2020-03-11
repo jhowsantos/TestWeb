@@ -1,0 +1,1530 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3079680605,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 244185276,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 911407766,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5350450021,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Incluir um usuário com sucesso",
+        "description": "",
+        "id": "crud-usuários;incluir-um-usuário-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 653869062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 36334381,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencher o login com \"jhonatas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 32971859,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher o nome completo com \"jhonatas matos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas matos",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 32361402,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher o email com \"jhonatas@impacta.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas@impacta.com",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 24235423,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher a idade com 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 449333360,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 38041036,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário deve ver a mensagem \"Usuário foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário foi criado com sucesso.",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.oUsuarioDeveVerAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2974863520,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 241181138,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1570316129,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7911746987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Editar um usuário com sucesso",
+        "description": "",
+        "id": "crud-usuários;editar-um-usuário-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 1768916417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 29338483,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o login com \"jhonatas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 31558584,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencher o nome completo com \"jhonatas matos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas matos",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 29835282,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher o email com \"jhonatas@impacta.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas@impacta.com",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22667351,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencher a idade com 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 458535815,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 232768319,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicar no botão \"Editar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Editar",
+                  "offset": 17
+                }
+              ],
+              "location": "CrudUsuarioSteps.clicarNoBotao(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 29593221,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "preencher a idade com 36",
+            "match": {
+              "arguments": [
+                {
+                  "val": "36",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 430981131,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 18762626,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o usuário deve ver a mensagem \"Usuário foi atualizado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário foi atualizado com sucesso.",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.oUsuarioDeveVerAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 949541790,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 242227183,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 988752240,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2999602096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Excluir um usuário com sucesso",
+        "description": "",
+        "id": "crud-usuários;excluir-um-usuário-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 753822276,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 68186247,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "preencher o login com \"Rambo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rambo",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 29476545,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "preencher o nome completo com \"Rambo Matador\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rambo Matador",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30414951,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "preencher o email com \"rambo@killer.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rambo@killer.com",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 25011420,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "preencher a idade com 56",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 493955072,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 231233231,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clicar no botão \"Voltar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Voltar",
+                  "offset": 17
+                }
+              ],
+              "location": "CrudUsuarioSteps.clicarNoBotao(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 465172848,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "ver o nome completo \"Rambo Matador\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rambo Matador",
+                  "offset": 21
+                }
+              ],
+              "location": "CrudUsuarioSteps.verONomeCompleto(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10073960126,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "clicar em \"btn-delete\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-delete",
+                  "offset": 11
+                }
+              ],
+              "location": "CrudUsuarioSteps.clicarEm(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 26528656,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o nome completo \"Rambo Matador\" não deve ser exibido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rambo Matador",
+                  "offset": 17
+                }
+              ],
+              "location": "CrudUsuarioSteps.oNomeCompletoNaoDeveSerExibido(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1870782651,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 235868680,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 936327603,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5066243969,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": ": Erro ao não preencher todos os campos ao cadastrar novo usuário",
+        "description": "",
+        "id": "crud-usuários;:-erro-ao-não-preencher-todos-os-campos-ao-cadastrar-novo-usuário;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 742772200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23868305,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "preencher o login com \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63665321,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "preencher o nome completo com \"jhonatas matos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas matos",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 32505831,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "preencher o email com \"jhonatas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22739216,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "preencher a idade com 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 293605869,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 19072508,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "o usuário deve ver a mensagem de erro \"Login can\u0027t be blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login can\u0027t be blank",
+                  "offset": 39
+                }
+              ],
+              "location": "CrudUsuarioSteps.oUsuárioDeveVerAMensagemDeErro(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 865817418,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 240335255,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1169425741,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3078763907,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": ": Erro ao não preencher todos os campos ao cadastrar novo usuário",
+        "description": "",
+        "id": "crud-usuários;:-erro-ao-não-preencher-todos-os-campos-ao-cadastrar-novo-usuário;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1820041452,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59051101,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "preencher o login com \"jhonatas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 31551582,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "preencher o nome completo com \"jhonatas matos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhonatas matos",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 25336351,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "preencher o email com \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 21940305,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "preencher a idade com 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 276850253,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 33433800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "o usuário deve ver a mensagem de erro \"Email can\u0027t be blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email can\u0027t be blank",
+                  "offset": 39
+                }
+              ],
+              "location": "CrudUsuarioSteps.oUsuárioDeveVerAMensagemDeErro(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Acessar a aplicação",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 905015196,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário acessa a home da aplicação",
+            "match": {
+              "location": "CrudUsuarioSteps.queoUsuarioAcessaAHomeDaAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 238284825,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Usuários no menu",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNaOpcaoUsuariosNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1078178714,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clica no botão Novo Usuário",
+            "match": {
+              "location": "CrudUsuarioSteps.clicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3580690207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Mostrar dados inseridos",
+        "description": "",
+        "id": "crud-usuários;mostrar-dados-inseridos",
+        "after": [
+          {
+            "result": {
+              "duration": 1784642053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 28895536,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "preencher o login com \"Lara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lara",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOLoginCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 29322921,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "preencher o nome completo com \"Lara Croft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lara Croft",
+                  "offset": 31
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherONomeCompletoCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 32035148,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "preencher o email com \"lara.craft@tombraider.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lara.craft@tombraider.com",
+                  "offset": 23
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherOEmailCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 24644062,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "preencher a idade com 32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 22
+                }
+              ],
+              "location": "CrudUsuarioSteps.preencherAIdadeCom(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 459770302,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "clicar no botão Salvar",
+            "match": {
+              "location": "CrudUsuarioSteps.clicarNoBotao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 228831816,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "clicar no botão \"Voltar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Voltar",
+                  "offset": 17
+                }
+              ],
+              "location": "CrudUsuarioSteps.clicarNoBotao(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 579539290,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "ver o nome completo \"Lara Croft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lara Croft",
+                  "offset": 21
+                }
+              ],
+              "location": "CrudUsuarioSteps.verONomeCompleto(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 230902507,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "clicar no \"btn-show\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-show",
+                  "offset": 11
+                }
+              ],
+              "location": "CrudUsuarioSteps.clicarNo(String)"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      }
+    ],
+    "name": "CRUD usuários",
+    "description": "",
+    "id": "crud-usuários",
+    "keyword": "Funcionalidade",
+    "uri": "crudUsuario.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3192722826,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adicionar um novo processo com sucesso.",
+        "description": "",
+        "id": "incluir-processo-com-sucesso;adicionar-um-novo-processo-com-sucesso.",
+        "after": [
+          {
+            "result": {
+              "duration": 1686880904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1866432169,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuário está na página Agapito Software Testing",
+            "match": {
+              "location": "ProcessoSteps.queOUsuárioEstáNaPáginaAgapitoSoftwareTesting()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 238474523,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clica na opção Processos no menu",
+            "match": {
+              "location": "ProcessoSteps.oUsuarioClicarNoMenu()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 938174916,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuário clicar no botão novo processo",
+            "match": {
+              "location": "ProcessoSteps.oUsuarioClicarNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 631005669,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário digitar no campo \"processo_vara\" o valor \"99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 28
+                },
+                {
+                  "val": "99",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30900151,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário digitar no campo \"processo_numero_processo\" o valor \"98765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 28
+                },
+                {
+                  "val": "98765",
+                  "offset": 63
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 25294912,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário digitar no campo \"processo_natureza\" o valor \"Treta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Treta",
+                  "offset": 56
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 26588369,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário digitar no campo \"processo_partes\" o valor \"Fred x Jason\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Fred x Jason",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 24734009,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário digitar no campo \"processo_data_entrada\" o valor \"20/03/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "20/03/2020",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 27777388,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário digitar no campo \"processo_status\" o valor \"Agendado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 28
+                },
+                {
+                  "val": "Agendado",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 295850645,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário seleciona no campo urgencia o valor \"Sim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessoSteps.oUsuárioSelecionaNoCampoOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 223986011,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário clica no campo arbitramento com o valor Sim",
+            "match": {
+              "location": "ProcessoSteps.oUsuárioClicaNoCampoArbitramentoComOValorSim()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 523249841,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário clicar no botão \"btn-save\" na página de inclusão de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btn-save",
+                  "offset": 27
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioClicarNoBotaoSalvar(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 18266628,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário deveria visualizar a mensagem \"Processo foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 41
+                }
+              ],
+              "location": "ProcessoSteps.oUsuarioDeveriaVisualizarAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Incluir processo com sucesso",
+    "description": "",
+    "id": "incluir-processo-com-sucesso",
+    "keyword": "Funcionalidade",
+    "uri": "processo.feature"
+  }
+]

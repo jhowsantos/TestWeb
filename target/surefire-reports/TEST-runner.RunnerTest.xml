@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="80.312" tests="82" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jhonatassantos/Documents/projetos/TestWeb"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jhonatassantos/Documents/projetos/TestWeb"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/0f/h9s7lmlx02g_0pqg_2gn97bh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/jhonatassantos/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jhonatassantos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/jhonatassantos/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/Users/jhonatassantos/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/jhonatassantos"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="jhonatassantos"/>
+    <property name="java.class.path" value="/Users/jhonatassantos/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="/Users/jhonatassantos/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/jhonatassantos/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="Cenário: Incluir um usuário com sucesso" time="0.002"/>
+  <testcase name="E clica na opção Usuários no menu" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="E clica no botão Novo Usuário" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o login com &quot;jhonatas&quot;" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;jhonatas matos&quot;" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o email com &quot;jhonatas@impacta.com&quot;" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher a idade com 26" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="Quando clicar no botão Salvar" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="Então o usuário deve ver a mensagem &quot;Usuário foi criado com sucesso.&quot;" classname="Cenário: Incluir um usuário com sucesso" time="0"/>
+  <testcase name="Cenário: Incluir um usuário com sucesso" classname="Cenário: Incluir um usuário com sucesso" time="0.655"/>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E clica na opção Usuários no menu" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E clica no botão Novo Usuário" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o login com &quot;jhonatas&quot;" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;jhonatas matos&quot;" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o email com &quot;jhonatas@impacta.com&quot;" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E preencher a idade com 26" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E clicar no botão Salvar" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E clicar no botão &quot;Editar&quot;" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="E preencher a idade com 36" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="Quando clicar no botão Salvar" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="Então o usuário deve ver a mensagem &quot;Usuário foi atualizado com sucesso.&quot;" classname="Cenário: Editar um usuário com sucesso" time="0"/>
+  <testcase name="Cenário: Editar um usuário com sucesso" classname="Cenário: Editar um usuário com sucesso" time="1.77"/>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E clica na opção Usuários no menu" classname="Cenário: Excluir um usuário com sucesso" time="0.001"/>
+  <testcase name="E clica no botão Novo Usuário" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o login com &quot;Rambo&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;Rambo Matador&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher o email com &quot;rambo@killer.com&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E preencher a idade com 56" classname="Cenário: Excluir um usuário com sucesso" time="0.001"/>
+  <testcase name="E clicar no botão Salvar" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E clicar no botão &quot;Voltar&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="E ver o nome completo &quot;Rambo Matador&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="Quando clicar em &quot;btn-delete&quot;" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="Então o nome completo &quot;Rambo Matador&quot; não deve ser exibido" classname="Cenário: Excluir um usuário com sucesso" time="0"/>
+  <testcase name="Cenário: Excluir um usuário com sucesso" classname="Cenário: Excluir um usuário com sucesso" time="0.754"/>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="E clica na opção Usuários no menu" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="E clica no botão Novo Usuário" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher o login com &quot;&quot;" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;jhonatas matos&quot;" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0.001"/>
+  <testcase name="E preencher o email com &quot;jhonatas@gmail.com&quot;" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher a idade com 26" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="Quando clicar no botão Salvar" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="Então o usuário deve ver a mensagem de erro &quot;Login can&apos;t be blank&quot;" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0"/>
+  <testcase name="|  | jhonatas@gmail.com | Login can&apos;t be blank |" classname="|  | jhonatas@gmail.com | Login can&apos;t be blank |" time="0.743"/>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E clica na opção Usuários no menu" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E clica no botão Novo Usuário" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher o login com &quot;jhonatas&quot;" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;jhonatas matos&quot;" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher o email com &quot;&quot;" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="E preencher a idade com 26" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="Quando clicar no botão Salvar" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="Então o usuário deve ver a mensagem de erro &quot;Email can&apos;t be blank&quot;" classname="| jhonatas |  | Email can&apos;t be blank |" time="0"/>
+  <testcase name="| jhonatas |  | Email can&apos;t be blank |" classname="| jhonatas |  | Email can&apos;t be blank |" time="1.82"/>
+  <testcase name="Dado que o usuário acessa a home da aplicação" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E clica na opção Usuários no menu" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E clica no botão Novo Usuário" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E preencher o login com &quot;Lara&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E preencher o nome completo com &quot;Lara Croft&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E preencher o email com &quot;lara.craft@tombraider.com&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E preencher a idade com 32" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E clicar no botão Salvar" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E clicar no botão &quot;Voltar&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="E ver o nome completo &quot;Lara Croft&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="Quando clicar no &quot;btn-show&quot;" classname="Cenário: Mostrar dados inseridos" time="0"/>
+  <testcase name="Cenário: Mostrar dados inseridos" classname="Cenário: Mostrar dados inseridos" time="1.786"/>
+  <testcase name="Dado que o usuário está na página Agapito Software Testing" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E clica na opção Processos no menu" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário clicar no botão novo processo" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_vara&quot; o valor &quot;99&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_numero_processo&quot; o valor &quot;98765&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_natureza&quot; o valor &quot;Treta&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_partes&quot; o valor &quot;Fred x Jason&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_data_entrada&quot; o valor &quot;20/03/2020&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário digitar no campo &quot;processo_status&quot; o valor &quot;Agendado&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário seleciona no campo urgencia o valor &quot;Sim&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="E o usuário clica no campo arbitramento com o valor Sim" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="Quando o usuário clicar no botão &quot;btn-save&quot; na página de inclusão de processos" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="Então o usuário deveria visualizar a mensagem &quot;Processo foi criado com sucesso.&quot;" classname="Cenário: Adicionar um novo processo com sucesso." time="0"/>
+  <testcase name="Cenário: Adicionar um novo processo com sucesso." classname="Cenário: Adicionar um novo processo com sucesso." time="1.688"/>
+</testsuite>

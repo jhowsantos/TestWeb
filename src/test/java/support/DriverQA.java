@@ -36,7 +36,7 @@ public class DriverQA {
                     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
                     break;
                 case "chrome":
-                    ChromeDriverManager.getInstance().setup();
+//                    ChromeDriverManager.getInstance().setup();
                     ChromeOptions optionsC = new ChromeOptions();
                     // hides the info message that says chrome is being controlled by automated test software
                     optionsC.addArguments(Arrays.asList(
@@ -84,6 +84,11 @@ public class DriverQA {
         return element;
     }
 
+    public void elementExists(String parValue, String... parType){
+        WebElement element = findElem(parValue, parType);
+        element.getSize();
+    }
+
     public void click(String parValue, String... parType){
         WebElement element = findElem(parValue, parType);
         element.click();
@@ -110,6 +115,15 @@ public class DriverQA {
     public String getText(String parValue, String... parType){
         WebElement element = findElem(parValue, parType);
         return element.getText();
+    }
+
+    public boolean elementExists(String parValue){
+        return driver.getPageSource().contains(parValue);
+    }
+
+    public String getId(String parValue, String... parType){
+        WebElement element = findElem(parValue, parType);
+        return element.getAttribute("id");
     }
 
     public void selectByIndex(Integer parIndex, String parName, String... parType) {
@@ -178,12 +192,12 @@ public class DriverQA {
         }
     }
 
-    public void  ChooseOkOnNextConfirmation(){
+    public void ChooseOkOnNextConfirmation(){
         Alert alert = driver.switchTo().alert();
         alert.accept();
     }
 
-    public void  ChooseCancelOnNextConfirmation(){
+    public void ChooseCancelOnNextConfirmation(){
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
     }
